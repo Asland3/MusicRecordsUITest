@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "coverlet.collector/3.1.0": {
         "type": "package",
         "build": {
@@ -2770,7 +2770,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.9-preview-20220210-07",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
@@ -2781,29 +2781,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/malthethomsen/.nuget/packages/": {}
+    "C:\\Users\\kevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/malthethomsen/Dropbox/Datamatiker/3. Semester/Technology/MusicRecordsUITest/MusicRecordsUITest/MusicRecordsUITest.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\Source\\Repos\\MusicRecordsUITest\\MusicRecordsUITest\\MusicRecordsUITest.csproj",
       "projectName": "MusicRecordsUITest",
-      "projectPath": "/Users/malthethomsen/Dropbox/Datamatiker/3. Semester/Technology/MusicRecordsUITest/MusicRecordsUITest/MusicRecordsUITest.csproj",
-      "packagesPath": "/Users/malthethomsen/.nuget/packages/",
-      "outputPath": "/Users/malthethomsen/Dropbox/Datamatiker/3. Semester/Technology/MusicRecordsUITest/MusicRecordsUITest/obj/",
+      "projectPath": "C:\\Users\\kevin\\Source\\Repos\\MusicRecordsUITest\\MusicRecordsUITest\\MusicRecordsUITest.csproj",
+      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kevin\\Source\\Repos\\MusicRecordsUITest\\MusicRecordsUITest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/malthethomsen/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -2814,8 +2816,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -2861,7 +2863,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
